@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Header</title>
+        <style>
+            body {
+                margin: 0px;
+                background-color: white;
+            }
+
+            header {
+                height: 60px;
+                background-color:rgb(136, 136, 146);;
+                width: 100%;
+                font-size: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            li {
+                display: inline;
+                margin-right: 30px;
+                font-weight: bold;
+            }
+
+            li>a:hover {
+                /* background-color: rgb(253, 230, 190); */
+                color: rgb(31, 31, 26);
+            }
+
+            li>a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .user-login {
+                align-self: center;
+            }
+
+            button {
+                padding: 5px 10px;
+                margin-right: 20px;
+                background-color: rgb(118, 118, 126);
+                border: 3px solid black;
+                border-radius: 0.2em;
+                color: black;
+                font-size: 16px;
+            }
+
+            button:hover {
+                color: white;
+                background-color: rgb(231, 138, 138);
+                border-color: white;
+                cursor: pointer;
+            }
+            section{
+                padding: 50px;
+                font-size: 40px;
+                color: rgb(100, 98, 98);
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <ul style="list-style:none;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="user-login">
+                <button> Sign Up </button>
+                <button> Login </button>
+            </div>
+        </header>
+        <section>Fixed Header</section>
+    </body>
+</html>
